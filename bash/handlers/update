@@ -1,0 +1,6 @@
+#!/bin/bash
+cd /Users/zhujunkai/Desktop/My_Adr/Road-Abnormal-Detection
+git pull
+echo "successfully updated!"
+
+exit 0
