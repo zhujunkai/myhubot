@@ -1,0 +1,9 @@
+#!/bin/bash
+ssh -tt root@203.195.152.23 -p 22  << haha
+
+cd /usr/local/tomcat7/
+./bin/shutdown.sh
+exit
+haha
+
+exit 0
