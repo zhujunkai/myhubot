@@ -15,9 +15,9 @@
 
 module.exports = (robot) ->
   robot.respond /(showimg)( me)? (.*)/i, (msg) ->
-    transMe(msg,msg.match[3])
+    imgsMe(msg,msg.match[3])
 
-transMe = (msg, query) ->
+imgsMe = (msg, query) ->
   if query == 'cpu'
     msg.http('http://www.722captain.cn:8080/Cloudyw/cpu')
       .get() (err, res, body) ->
